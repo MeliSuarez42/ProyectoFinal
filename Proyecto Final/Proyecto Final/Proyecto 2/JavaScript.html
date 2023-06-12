@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="Media/favicon-32x32.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Proyecto final JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header style="background-color: rgb(70, 70, 70); color: white;">
+       <div>
+            <nav style="display: flex; justify-content: space-around">
+                <h1>Conf Bs As</h1>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: white" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: white" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: white" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="#">Conviértete en orador</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: rgb(91, 154, 91)" href="#" >Comprar tickets</a>
+                    </li>
+                  </ul>
+            </nav>
+        </div>
+    </header> 
+    <br>
+
+
+  </br>
+    <div class="container text-center" style="display: flex; flex-wrap: wrap; justify-content: center;">
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="card" style="width: 18rem; border-color: rgba(0, 85, 255, 0.807);">
+            <div class="card-body">
+              <h5 class="card-title">Estudiante</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento </h6>
+              <p class="card-text"><br><b>80%</b></br> * presentar documentación</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; border-color: rgb(14, 192, 215);">
+            <div class="card-body">
+              <h5 class="card-title">Trainee</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
+              <p class="card-text"><br><b>50%</b></br> * presentar documentación</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; border-color: rgb(202, 202, 13);">
+            <div class="card-body">
+              <h5 class="card-title">Junior</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
+              <p class="card-text"><br><b>15%</b></br> * presentar documentación</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <p class="h6" style="text-align: center;">VENTA</p>
+    <p class="h1" style="text-align: center;"> VALOR DE TICKET $200</p>
+   </br>
+
+    <center>
+        <section>
+         <form class="row g-3">
+        <div class="col-md-6">
+          <div class="col"></div>
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        </div>
+        <div class="col-md-6">
+          <div class="col"></div>
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+        </div>
+        <div class="col-12">
+          <div class="col"></div>
+          <input type="text" class="form-control" placeholder="Correo" aria-label="example@gmail.com">
+        </div>
+        <div class="col-md-6">
+          <div class="col"></div>
+          <label for="inputCantidad" class="form-label">Cantidad</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Cantidad">
+        </div>
+        <div class="col-md-6">
+          <div class="col"></div>
+          <label for="inputCategoria" class="form-label">Categoria</label>
+          <select id="inputCategoria" class="form-select">
+            <option selected id="Estudiante">Estudiante</option>
+            <option id="Trainee">Trainee</option>
+            <option id="Junior">Junior</option>
+          </select>
+        </div><div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+            <label type=number for="floatingInputDisabled" id="Respuesta">Total a Pagar: $ </label>
+          </div>
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-success col-md-5" type="button">Borrar</button>
+            <button class="btn btn-success col-md-5" type="button" id="Resumen">Resumen<div class="d-grid gap-2 d-md-block">
+        </div>
+      </form>
+    </section>
+    </center>
+    <br>
+
+
+    </br>
+
+    <header style="background-color: rgb(18, 58, 79); height: 150px; ; width: 1700px;">
+        <div>
+             <nav style="display: flex; justify-content: space-around">
+                 <a href="#" style="color: white;" class="text-decoration-none">Preguntas frecuentes</a>
+                 <a href="#" style="color: white;" class="text-decoration-none">Contáctanos</a>
+                 <a href="#" style="color: white;" class="text-decoration-none">Prensa</a>
+                 <a href="#" style="color: white;" class="text-decoration-none">Conferencias</a>
+                 <a href="#" style="color: white;" class="text-decoration-none">Términos y condiciones</a>
+                 <a href="#" style="color: white;" class="text-decoration-none">Privacidad</a>
+                 <a href="#" style="color: white;" class="text-decoration-none">Estudiantes</a>
+             </nav>
+        </div>     
+    </header>
+   
+</body>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="Funcion.js"></script>
+</html>
